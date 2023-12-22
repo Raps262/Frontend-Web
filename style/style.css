@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("/project1/resource/stretched-1920-1080-1179203.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 92vh;
+    text-align: center;
+}
+.timer{
+    font-size: 36px;
+    margin: 20px;
+    backdrop-filter: blur(4px);
+    border: 4px groove white;
+    padding: 7%;
+}
+
+p {
+    display: flex;
+    align-content: start;
+}
+
+h1 {
+    line-height: 5.5rem;
+}
+
+button{
+    background-color: transparent;
+    border: hidden;
+    font-size: 30px;
+    margin: 10px;
+}
